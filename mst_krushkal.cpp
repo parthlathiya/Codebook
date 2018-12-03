@@ -75,7 +75,7 @@ int main()
 
 	s(n);
 	s(m);
-	priority_queue <ppll , vppll, greater<ppll>> pq;
+	priority_queue <ppll> pq;
 	ll a,b,w;
 	re(i,m){
 		cin>>a>>b>>w;

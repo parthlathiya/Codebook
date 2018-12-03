@@ -78,8 +78,8 @@ int main()
 		ll cur=q.front();
 		q.pop();
 		
-		if(bfsdoneat[cur])
-			continue;
+		// if(bfsdoneat[cur])
+		// 	continue;
 		bfsdoneat[cur]=1;
 
 		for(auto a:g[cur])
